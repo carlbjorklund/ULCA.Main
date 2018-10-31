@@ -11,6 +11,7 @@ namespace ULCA.Main.Models
     {
         [Key]
         public int ScheduledId { get; set; }
+        public string Image { get; set; }
 
         [ForeignKey("Channel")]
         public int ChannelId { get; set; }

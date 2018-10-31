@@ -13,7 +13,9 @@ namespace ULCA.Main.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public string Title { get; set; }
-        
+        public string ChaImage { get; set; }
+
+
         List<Show> Schedules { get; set; }
 
     }

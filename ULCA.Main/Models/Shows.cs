@@ -14,6 +14,8 @@ namespace ULCA.Main.Models
 
         public string Description { get; set; }
 
+        public string ShoImage { get; set; }
+
         public int Length { get; set; }
 
         [ForeignKey("Category")]
