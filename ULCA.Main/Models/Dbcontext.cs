@@ -9,7 +9,6 @@ namespace ULCA.Main.Models
             : base(options)
         { }
 
-        
         public DbSet<Channel> Channels { get; set; }
 
         public DbSet<Show> Shows { get; set; }

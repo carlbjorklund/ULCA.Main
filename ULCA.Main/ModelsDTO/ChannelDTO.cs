@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ULCA.Main.Models
+namespace ULCA.Main.ModelsDTO
 {
-    public class Channel
+    public class ChannelDTO
     {
         [Key]
         public int Id { get; set; }
@@ -17,9 +17,11 @@ namespace ULCA.Main.Models
         [Required]
         public string Title { get; set; }
 
+
         public string ChaImage { get; set; }
 
-        List<Show> Schedules { get; set; }
+
+        List<ShowDTO> Schedules { get; set; }
 
     }
 }
