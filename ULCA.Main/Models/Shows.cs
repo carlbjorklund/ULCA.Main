@@ -10,8 +10,10 @@ namespace ULCA.Main.Models
         [Key]
         public int SchowId { get; set; }
 
+        [Required]
         public string Title { get; set; }
 
+        [Required]
         public string Description { get; set; }
 
         public string ShoImage { get; set; }
